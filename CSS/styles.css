@@ -1,0 +1,133 @@
+/*Tag Selectors*/
+
+body {
+    display: block;
+    margin: 0;
+    text-align: center;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1.5em;
+    background-image: url(../Bilder/background.jpg);
+    background-repeat: no-repeat, repeat;
+    background-attachment: absolute;
+}
+
+
+
+/*Class Selectors*/
+
+.top-container {
+    padding-top: 6.25rem;
+    position: relative;
+    padding-bottom: 15.40rem;
+}
+
+.unterstreichen {
+    text-decoration: underline;
+}
+
+.planets {
+    position: absolute;
+    left: 10%;
+    top: 13.5rem;
+    height: auto; 
+    width: auto; 
+    max-width: 15%; 
+    max-height: 15%;
+}
+
+.uranus {
+    position: absolute;
+    right: 17%;
+    top: 50px;
+    height: auto; 
+    width: auto; 
+    max-width: 15%; 
+    max-height: 15%;
+}
+
+.rakete {
+    position: absolute;
+    left: 12%;
+    bottom: 35%;
+    height: auto; 
+    width: auto; 
+    max-width: 15%; 
+    max-height: 15%;
+}
+
+
+
+.computer {
+    border-radius: 100%;
+    width: 25%;
+    float: left;
+    margin-right: 2rem;
+    filter: drop-shadow(0 0 0.75rem #000000);
+}
+
+
+.chili {
+    width: 25%;
+    float: right;
+    margin-left: 2rem;
+    filter: drop-shadow(0 0 0.75rem #000000);
+}
+
+
+.profilbild {
+    padding-top: 2%;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+/*Fonts*/
+
+.weiss {
+    color:white;
+}
+
+h1 {
+    margin: 1.125rem auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+}
+
+h2 {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3, a, p {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+/*Animation*/
+
+@keyframes bounce {
+    0%,
+    20%,
+    60%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    80% {
+        transform: translateY(-20px);
+    }
+}
+
+.rakete:hover, .uranus:hover, .planets:hover, .chili:hover, .computer:hover {
+    animation: bounce 1.0s ease-in-out;
+}
+
+.profilbild:hover {
+    filter: drop-shadow(0 0 0.75rem #01c7ea);
+}
