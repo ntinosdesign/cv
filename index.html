@@ -1,87 +1,57 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Das ist ein HTML Titel</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willkommen auf Kosta's WebDev Portfolio!</title>
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <link rel="shortcut icon" href="Bilder/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 <body>
-    <table cellspacing="20">
-        <tbody>
-            <tr>
-                <td>
-                    <img src="bilder/mein-bild.png" alt="Das bin ich!">
-                </td>
-                <td>
-                    <h1>Konstantinos Triantafillou</h1>
-                    <p><em>Das ist eine <strong>Unterüberschrift</strong></em></p>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h3>Books and Teaching</h3>
-    <ul>
-        <li>The Complete iOS App Development Bootcamp</li>
-        <li>The Complete Web Development Bootcamp</li>
-        <li>The Complete Javascript Development Bootcamp</li>
-    </ul>
-    <h3>My Hobbies</h3>
-    <ol>
-        <li>Singing</li>
-        <li>Developing</li>
-        <li>Shitting</li>
-        <li>Karate</li>
-    </ol>
-    <h3>Tabelle</h3>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Datum</th>
-                <th>Dingsbums</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2014-2016</td>
-                <td>Karl-Schiller-Berufskolleg Brühl</td>
-            </tr>
-            <tr>
-                <td>2016-2019</td>
-                <td>Alfred Talke Logistik Services</td>
-            </tr>
-        </tbody>
-    </table>
-    <h3>Skills</h3>
-    <table>
-            <tr>
-                <td>
-                    <table>
-                        <tr border="1">
-                            <td>Online Marketing</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>                
-                        <tr border="1">
-                            <td>Web Development</td>
-                            <td>⭐</td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <table>
-                        <tr border="1">
-                            <td>Zaubern</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>                
-                        <tr border="1">
-                            <td>Singen</td>
-                            <td>⭐⭐⭐</td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-    </table>
-    <hr>
-    <a href="kontakt.html">Kontakt</a>
-    <a href="input-types.html">HTML Formen (für Formulare)</a>
+    <div class="top-container">
+        <img class="uranus" src="bilder/uranus.png" alt="Wolken">
+        <h1 class="weiss">Ich bin Kosta.</h1>
+        <img class="profilbild" src="Bilder/mein-bild.png" width="250px" alt="Profilbild Kosta">
+        <h2 class="weiss">Dein <span class="unterstreichen">Pro</span>grammierer.</h2>
+        <img class="planets" src="bilder/planets.png" alt="Wolken">
+        <img class="rakete" src="Bilder/rakete.png" alt="Rakete">
+        <h2 class="weiss">Hi.</h2>
+        <p class="weiss">Ich programmiere deine nächste Website!</p>
+        <p class="weiss">Hier erfährst du mehr über mich.</p>
+    </div>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="computer" src="Bilder/computer.png" alt="">
+            <h3>Lorem & Ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+          </div>
+          <div class="skill-row">
+            <img class="chili" src="Bilder/chillies.png" alt="">
+            <h3>Lorem Ipsum Dolor</h3>
+            <p class="chili-beschreibung">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+          <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+          <a class="btn" href="mailto:info@raketen-affiliate.de">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p>© 2023 Kosta Triantafillou</p>
+      </div>
+      
 </body>
 </html>
