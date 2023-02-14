@@ -15,14 +15,19 @@ body {
 
 /*Class Selectors*/
 
-.top-container {
-    padding-top: 6.25rem;
-    position: relative;
-    padding-bottom: 15.40rem;
+.chili {
+    float: right;
+    width: 25%;
+    margin-left: 2rem;
+    filter: drop-shadow(0 0 0.75rem #000000);
 }
 
-.unterstreichen {
-    text-decoration: underline;
+.computer {
+    border-radius: 100%;
+    width: 25%;
+    float: left;
+    margin-right: 2rem;
+    filter: drop-shadow(0 0 0.75rem #000000);
 }
 
 .planets {
@@ -35,14 +40,8 @@ body {
     max-height: 15%;
 }
 
-.uranus {
-    position: absolute;
-    right: 17%;
-    top: 50px;
-    height: auto; 
-    width: auto; 
-    max-width: 15%; 
-    max-height: 15%;
+.profilbild {
+    padding-top: 2%;
 }
 
 .rakete {
@@ -55,27 +54,8 @@ body {
     max-height: 15%;
 }
 
-
-
-.computer {
-    border-radius: 100%;
-    width: 25%;
-    float: left;
-    margin-right: 2rem;
-    filter: drop-shadow(0 0 0.75rem #000000);
-}
-
-
-.chili {
-    width: 25%;
-    float: right;
-    margin-left: 2rem;
-    filter: drop-shadow(0 0 0.75rem #000000);
-}
-
-
-.profilbild {
-    padding-top: 2%;
+.skills {
+    margin-top: 2rem;
 }
 
 .skill-row {
@@ -83,6 +63,27 @@ body {
     width: 50%;
     text-align: left;
     line-height: 2;
+}
+
+.top-container {
+    padding-top: 6.25rem;
+    position: relative;
+    padding-bottom: 15.40rem;
+}
+
+
+.unterstreichen {
+    text-decoration: underline;
+}
+
+.uranus {
+    position: absolute;
+    right: 17%;
+    top: 50px;
+    height: auto; 
+    width: auto; 
+    max-width: 15%; 
+    max-height: 15%;
 }
 
 /*Fonts*/
